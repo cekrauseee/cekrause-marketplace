@@ -1,0 +1,21 @@
+{
+  "name": "cekrause",
+  "interface": {
+    "displayName": "cekrause"
+  },
+  "plugins": [
+    {
+      "name": "harness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cekrauseee/harness.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cekrause",
+  "owner": {
+    "name": "Henrique Krause"
+  },
+  "plugins": [
+    {
+      "name": "harness",
+      "description": "File-native project context and focused engineering workflows.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cekrauseee/harness.git",
+        "ref": "main"
+      }
+    }
+  ],
+  "description": "Personal plugins maintained by cekrause."
+}
