@@ -1,6 +1,6 @@
 # cekrause marketplace
 
-Personal plugin marketplace for Codex and Claude Code, maintained by Henrique Krause. Each plugin points at its public Git repository over HTTPS, which both hosts can clone without an SSH setup.
+Personal plugin marketplace for Codex and Claude Code, maintained by Henrique Krause. Each plugin points at its public Git repository over HTTPS, which both hosts can clone without an SSH setup, and at a release tag as `ref`, so an installed version always has the same content. Releasing a new version moves that `ref` to the new tag in both manifests.
 
 ## Plugins
 
